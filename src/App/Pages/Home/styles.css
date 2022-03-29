@@ -1,0 +1,12 @@
+.container-home {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f8ff;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-home .left-content {
+  display: flex;
+  flex-direction: column;
+}
