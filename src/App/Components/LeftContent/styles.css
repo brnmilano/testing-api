@@ -21,6 +21,7 @@ p {
 .container-left .button-container {
   margin: 15px 0;
   width: 100%;
+  max-width: 400px;
 }
 
 .container-left .button-container button {
