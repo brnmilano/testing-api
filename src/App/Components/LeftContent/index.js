@@ -20,7 +20,7 @@ function LeftContent() {
 
   return (
     <div className="container-left">
-      <div>
+      <div className="title-subtitle">
         <h1>Olá, seja muito bem vindo!</h1>
         <p>Aqui você irá encontrar o melhor conselho para o seu dia.</p>
       </div>
@@ -28,9 +28,9 @@ function LeftContent() {
       <div className="button-container">
         <Button
           backgroundColor="#04C35C"
-          padding="17px 150px"
+          padding={17}
           borderRadius={5}
-          fontSize={18}
+          fontSize={16}
           onClick={getConselho}
         >
           Receba seu conselho
